@@ -38,7 +38,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(47, 65);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(238, 22);
+            this.textBox1.Size = new System.Drawing.Size(263, 22);
             this.textBox1.TabIndex = 0;
             // 
             // listBox1
@@ -47,23 +47,23 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(47, 103);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(238, 164);
+            this.listBox1.Size = new System.Drawing.Size(263, 164);
             this.listBox1.TabIndex = 1;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(47, 274);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 23);
+            this.button1.Size = new System.Drawing.Size(120, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(169, 274);
+            this.button2.Location = new System.Drawing.Point(190, 273);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 23);
+            this.button2.Size = new System.Drawing.Size(120, 23);
             this.button2.TabIndex = 3;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -79,6 +79,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
